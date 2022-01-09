@@ -7,6 +7,22 @@
 // Write the function to find the quarterOf obtained.
 const quarterOf = (month) => {
     //your code here
+    if(month>=1 && month<=3)
+    {
+      return 1;
+        }
+    else if(month<=6)
+    {
+      return 2;
+    }
+    else if(month<=8)
+    {
+      return 3;
+
+    }
+    else{
+      return 4;
+    }
   }
 
 //Use SpecRunner to check the Test Cases.
